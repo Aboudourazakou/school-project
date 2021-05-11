@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+body {
+    background-color: #4A70DC;
+    font-family: Raleway,
+        serif;
+}
+
+
+.picture {
+    background-image: url('public/images/login.png');
+    background-position: center;
+    background-size: cover;
+}
+
+.login-card {
+    background-color: #ffffff;
+}
+
+.title {
+
+    font-family: Raleway,
+        serif;
+    color: #282a2c;
+    font-size: 24px;
+    font-weight: 400;
+    height: 29px;
+    line-height: 28.8px;
+    text-align: center;
+}
+
+.text-input {
+    margin-top: 10px;
+    width: 80%;
+    height: 45px;
+    border: 1px solid #D5DBE0;
+    border-radius: 1000px;
+    padding-left: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+
+
+.text-input::-webkit-input-placeholder {
+    /* Chrome/Opera/Safari/Edge */
+    font-size: 12.8px;
+    font-weight: 400;
+    height: 24px;
+    color: #858796;
+    line-height: 24px;
+}
+
+.text-input::-ms-input-placeholder {
+    /* Microsoft Edge */
+    font-size: 12.8px;
+    font-weight: 400;
+    height: 24px;
+    color: #858796;
+    line-height: 24px;
+}
+
+.text-input:-ms-input-placeholder {
+    /* IE 10+ */
+    font-size: 12.8px;
+    font-weight: 400;
+    height: 24px;
+    color: #858796;
+    line-height: 24px;
+}
+
+.remember {
+    font-size: 12.8px;
+    font-weight: 400;
+    height: 24px;
+    color: #858796;
+    line-height: 24px;
+
+}
+
+.check {
+    width: 80%;
+}
+
+.login-btn {
+
+    height: 45px;
+    width: 80%;
+    border: none;
+    background-color: #2E59D9;
+    color: white;
+
+}
+
+hr {
+    width: 80%;
+    border-bottom: none;
+    border-top: 1px solid #D5DBE0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rights {
+    font-family: Raleway,
+        serif;
+    color: #858796;
+    font-size: 16px;
+    font-weight: 400;
+    height: 24px;
+    line-height: 24px;
+}
+
+a {
+    text-decoration: none;
+    font-family: Helvetica,
+        Arial,
+        sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    height: 13px;
+    line-height: 40px;
+    color: #2a6496;
+}
+
+li {
+    list-style: none;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    height: 25px;
+}
+
+.error-message {
+    width: 80%;
+}
+
+@media only screen and (max-width: 990px) {
+
+
+    .picture {
+        display: none !important;
+    }
+
+
+}
+
+@media only screen and (max-width: 576px) {
+
+
+    .picture {
+        display: none !important;
+    }
+
+    .main {
+        justify-content: center;
+    }
+}
